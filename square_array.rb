@@ -10,5 +10,5 @@ end
   #numbers.each { |x| puts x**2 }
   
 def square_array(numbers)
-  numbers.collect {|x| new_arr << x**2}
+  numbers.collect {|x| x**2}
 end  
